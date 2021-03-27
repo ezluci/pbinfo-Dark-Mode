@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "pbinfo Dark Mode",
+  "version": "0.0.0",
+  "description": "pbinfo Dark Mode iti va face site-ul mai intunecat.",
+ 
+  "content_scripts": [{
+    "js": ["content.js"],
+    "matches": ["https://www.pbinfo.ro/*"]
+  }]
+ 
+}
